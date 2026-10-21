@@ -2,6 +2,8 @@
 
 App Store Connect 需要的「技術支援網址」和「隱私權政策網址」，用 GitHub Pages 發佈。共六種語言：簡體中文、繁體中文、英文、日文、韓文、西班牙文。
 
+線上網址：https://chongyangdu2008-cyrus.github.io/reviewflow/ （Pages 從 `main` 的根目錄發佈）
+
 - 首頁：`index.html`（選擇語言）
 - 各語言：`<語言>/support.html`（技術支援）、`<語言>/privacy.html`（隱私權政策），語言資料夾為 `zh-Hans`、`zh-Hant`、`en`、`ja`、`ko`、`es`
 
@@ -13,7 +15,7 @@ App Store Connect 需要的「技術支援網址」和「隱私權政策網址�
 python3 tools/build.py
 ```
 
-不要直接改產生出來的 `.html`，下次產生時會被覆蓋。
+不要直接改產生出來的 `.html`，下次產生時會被覆蓋。改完後 `git commit`、`git push`，Pages 約 1 分鐘後更新。
 
 ## 內容依據（2026-10-21 核對工程 `~/Desktop/拾記`）
 
